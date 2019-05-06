@@ -8,7 +8,7 @@
   <artifactId>helloworldmaven</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>helloworldmaven</name>
+  <name>pom</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
