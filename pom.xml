@@ -7,8 +7,16 @@
   <groupId>fr.exia</groupId>
   <artifactId>helloworldmaven</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>controller</module>
+    <module>model</module>
+    <module>view</module>
+    <module>Contract</module>
+    <module>main</module>
+  </modules>
+  <packaging>pom</packaging>
 
-  <name>pom</name>
+  <name>helloworldmaven</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

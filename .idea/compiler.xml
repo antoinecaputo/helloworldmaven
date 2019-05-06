@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="helloworldmaven" />
+        <module name="main" />
+        <module name="model" />
+        <module name="view" />
+        <module name="Contract" />
+        <module name="controller" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="helloworldmvccontroller" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
