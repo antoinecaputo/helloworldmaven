@@ -10,4 +10,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>main</artifactId>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>fr.exia</groupId>
+            <artifactId>controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.exia</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.exia</groupId>
+            <artifactId>view</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 </project>
