@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+
 public class Controller {
     private final IView view;
     private final IModel model;
@@ -7,7 +9,7 @@ public class Controller {
         this.model = model;
     }
 
-    public void run(){
+    public void run() throws FileNotFoundException {
         this.view.displayMessage(this.model.getHelloWorld());
     }
 }
